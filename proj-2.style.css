@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url('https://cultistempire.com/CopiumHarbourOpt.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+   
+}
+
+body{
+   
+    background-image: url('https://images.pexels.com/photos/8566621/pexels-photo-8566621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3000px;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 10;
+
+}
+.common a{
+    
+    text-decoration: none;
+    color: white;
+}
+.empire{
+    font-size: 95px;
+    margin-top: 150px;
+    padding-bottom: 60px;
+}
+.wild{
+    color: rgb(146, 8, 8);
+}
+.west{
+    color: rgb(206, 5, 5);
+}
+.box{
+    border: 10px solid black;
+    width: 100%;
+    color: black;
+    box-shadow: -100px -100px 400px rgb(249, 248, 248);
+}
+
+.capital{
+    background: linear-gradient(120deg , rgb(165, 34, 5), rgb(208, 84, 6) ) ;
+    position: relative;
+}
+
+.img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    
+}
+.city{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+.gun{
+    background: linear-gradient(220deg, darkred, blueviolet, rgb(85, 85, 251));
+    height: 425px;
+
+}
+.community{
+    position: relative;
+}
+
+.img2{
+    position: absolute;
+    height: 425px;
+    width: inherit;
+    top: 0px;
+    left: ;
+}
+.red{
+    color: rgb(169, 7, 7);
+}
+.server{
+    background: linear-gradient(90deg, rgba(2, 94, 128, 0.783),rgb(46, 172, 222));
+    height: 550px;
+}
+
+.img3{
+    position: relative;
+}
+.custom{
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+.server1{
+    background: linear-gradient(180deg, rgb(156,28,249),rgb(139,15,141),rgb(121,3,27));
+    height: 550px;
+}
+
+.buton:hover{
+    color: black;
+}
+.dark{
+    background-color: dark;
+    height: 550px;
+    width: 100%;
+}
+.last{
+    background-color: white;
+    height: 5px;
+}
+
+.join{
+    position: relative;
+}
+
+.today{
+    position: absolute;
+    top: 30px;
+    left: 115px;
+}
+
+.city-cultist{
+    animation-name: cultist;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: 1111;
+}
+@keyframes cultist{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

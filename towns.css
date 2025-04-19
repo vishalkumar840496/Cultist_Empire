@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.common a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.town{
+    font-size: 190px;
+}
+
+.img1{
+    position: relative;
+}
+.text1{
+    position: absolute;
+    top: 0px;
+    left: 15px;
+    height: 140px;
+    width: 1220px;
+   
+}
+.common a:hover{
+    color: darkred;
+}
+
+
+.join{
+    position: relative;
+}
+
+.today{
+    position: absolute;
+    top: 30px;
+    left: 115px;
+}
+
+.accordion-header button{
+    width: 100%;
+}
